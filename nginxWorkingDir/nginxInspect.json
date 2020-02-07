@@ -1,0 +1,234 @@
+[                                                                                                                                                                        
+    {                                                                                                                                                                    
+        "Id": "eea4aafc2a16c85671b9ee70d88ea0cb982bce6b4e66b570f22200b62492ea6b",                                                                                        
+        "Created": "2020-02-07T20:59:26.829033011Z",                                                                                                                     
+        "Path": "nginx",                                                                                                                                                 
+        "Args": [                                                                                                                                                        
+            "-g",                                                                                                                                                        
+            "daemon off;"                                                                                                                                                
+        ],                                                                                                                                                               
+        "State": {                                                                                                                                                       
+            "Status": "running",                                                                                                                                         
+            "Running": true,                                                                                                                                             
+            "Paused": false,                                                                                                                                             
+            "Restarting": false,                                                                                                                                         
+            "OOMKilled": false,                                                                                                                                          
+            "Dead": false,                                                                                                                                               
+            "Pid": 30587,                                                                                                                                                
+            "ExitCode": 0,                                                                                                                                               
+            "Error": "",                                                                                                                                                 
+            "StartedAt": "2020-02-07T20:59:27.463405965Z",                                                                                                               
+            "FinishedAt": "0001-01-01T00:00:00Z"                                                                                                                         
+        },                                                                                                                                                               
+        "Image": "sha256:2073e0bcb60ee98548d313ead5eacbfe16d9054f8800a32bedd859922a99a6e1",                                                                              
+        "ResolvConfPath": "/var/lib/docker/containers/eea4aafc2a16c85671b9ee70d88ea0cb982bce6b4e66b570f22200b62492ea6b/resolv.conf",                                     
+        "HostnamePath": "/var/lib/docker/containers/eea4aafc2a16c85671b9ee70d88ea0cb982bce6b4e66b570f22200b62492ea6b/hostname",                                          
+        "HostsPath": "/var/lib/docker/containers/eea4aafc2a16c85671b9ee70d88ea0cb982bce6b4e66b570f22200b62492ea6b/hosts",                                                
+        "LogPath": "/var/lib/docker/containers/eea4aafc2a16c85671b9ee70d88ea0cb982bce6b4e66b570f22200b62492ea6b/eea4aafc2a16c85671b9ee70d88ea0cb982bce6b4e66b570f22200b62492ea6b-json.log",                                                                                                                                                       
+        "Name": "/stupefied_einstein",                                                                                                                                   
+        "RestartCount": 0,                                                                                                                                               
+        "Driver": "overlay2",                                                                                                                                            
+        "Platform": "linux",                                                                                                                                             
+        "MountLabel": "",                                                                                                                                                
+        "ProcessLabel": "",                                                                                                                                              
+        "AppArmorProfile": "docker-default",                                                                                                                             
+        "ExecIDs": null,                                                                                                                                                 
+        "HostConfig": {                                                                                                                                                  
+            "Binds": [                                                                                                                                                   
+                "/home/stison/Desktop/dockerRelated/nginxWorkingDir/:/usr/share/nginx/html"                                                                              
+            ],                                                                                                                                                           
+            "ContainerIDFile": "",                                                                                                                                       
+            "LogConfig": {                                                                                                                                               
+                "Type": "json-file",                                                                                                                                     
+                "Config": {}                                                                                                                                             
+            },                                                                                                                                                           
+            "NetworkMode": "default",                                                                                                                                    
+            "PortBindings": {                                                                                                                                            
+                "80/tcp": [                                                                                                                                              
+                    {                                                                                                                                                    
+                        "HostIp": "",                                                                                                                                    
+                        "HostPort": "8080"                                                                                                                               
+                    }                                                                                                                                                    
+                ]                                                                                                                                                        
+            },                                                                                                                                                           
+            "RestartPolicy": {                                                                                                                                           
+                "Name": "no",                                                                                                                                            
+                "MaximumRetryCount": 0                                                                                                                                   
+            },                                                                                                                                                           
+            "AutoRemove": false,                                                                                                                                         
+            "VolumeDriver": "",                                                                                                                                          
+            "VolumesFrom": null,                                                                                                                                         
+            "CapAdd": null,                                                                                                                                              
+            "CapDrop": null,                                                                                                                                             
+            "Dns": [],                                                                                                                                                   
+            "DnsOptions": [],                                                                                                                                            
+            "DnsSearch": [],                                                                                                                                             
+            "ExtraHosts": null,                                                                                                                                          
+            "GroupAdd": null,                                                                                                                                            
+            "IpcMode": "shareable",                                                                                                                                      
+            "Cgroup": "",                                                                                                                                                
+            "Links": null,                                                                                                                                               
+            "OomScoreAdj": 0,                                                                                                                                            
+            "PidMode": "",                                                                                                                                               
+            "Privileged": false,                                                                                                                                         
+            "PublishAllPorts": false,                                                                                                                                    
+            "ReadonlyRootfs": false,                                                                                                                                     
+            "SecurityOpt": null,                                                                                                                                         
+            "UTSMode": "",                                                                                                                                               
+            "UsernsMode": "",                                                                                                                                            
+            "ShmSize": 67108864,                                                                                                                                         
+            "Runtime": "runc",                                                                                                                                           
+            "ConsoleSize": [                                                                                                                                             
+                0,                                                                                                                                                       
+                0                                                                                                                                                        
+            ],                                                                                                                                                           
+            "Isolation": "",                                                                                                                                             
+            "CpuShares": 0,                                                                                                                                              
+            "Memory": 0,                                                                                                                                                 
+            "NanoCpus": 0,                                                                                                                                               
+            "CgroupParent": "",                                                                                                                                          
+            "BlkioWeight": 0,                                                                                                                                            
+            "BlkioWeightDevice": [],                                                                                                                                     
+            "BlkioDeviceReadBps": null,                                                                                                                                  
+            "BlkioDeviceWriteBps": null,                                                                                                                                 
+            "BlkioDeviceReadIOps": null,                                                                                                                                 
+            "BlkioDeviceWriteIOps": null,                                                                                                                                
+            "CpuPeriod": 0,                                                                                                                                              
+            "CpuQuota": 0,                                                                                                                                               
+            "CpuRealtimePeriod": 0,                                                                                                                                      
+            "CpuRealtimeRuntime": 0,                                                                                                                                     
+            "CpusetCpus": "",                                                                                                                                            
+            "CpusetMems": "",                                                                                                                                            
+            "Devices": [],                                                                                                                                               
+            "DeviceCgroupRules": null,                                                                                                                                   
+            "DiskQuota": 0,                                                                                                                                              
+            "KernelMemory": 0,                                                                                                                                           
+            "MemoryReservation": 0,                                                                                                                                      
+            "MemorySwap": 0,                                                                                                                                             
+            "MemorySwappiness": null,                                                                                                                                    
+            "OomKillDisable": false,                                                                                                                                     
+            "PidsLimit": 0,                                                                                                                                              
+            "Ulimits": null,                                                                                                                                             
+            "CpuCount": 0,                                                                                                                                               
+            "CpuPercent": 0,                                                                                                                                             
+            "IOMaximumIOps": 0,                                                                                                                                          
+            "IOMaximumBandwidth": 0,                                                                                                                                     
+            "MaskedPaths": [                                                                                                                                             
+                "/proc/asound",                                                                                                                                          
+                "/proc/acpi",                                                                                                                                            
+                "/proc/kcore",                                                                                                                                           
+                "/proc/keys",                                                                                                                                            
+                "/proc/latency_stats",                                                                                                                                   
+                "/proc/timer_list",                                                                                                                                      
+                "/proc/timer_stats",                                                                                                                                     
+                "/proc/sched_debug",                                                                                                                                     
+                "/proc/scsi",                                                                                                                                            
+                "/sys/firmware"                                                                                                                                          
+            ],                                                                                                                                                           
+            "ReadonlyPaths": [                                                                                                                                           
+                "/proc/bus",                                                                                                                                             
+                "/proc/fs",                                                                                                                                              
+                "/proc/irq",                                                                                                                                             
+                "/proc/sys",                                                                                                                                             
+                "/proc/sysrq-trigger"                                                                                                                                    
+            ]                                                                                                                                                            
+        },                                                                                                                                                               
+        "GraphDriver": {                                                                                                                                                 
+            "Data": {                                                                                                                                                    
+                "LowerDir": "/var/lib/docker/overlay2/9b38f0349cd320c32a71259478f677a12a64ebf7d94372c78894dea3178b2693-init/diff:/var/lib/docker/overlay2/476ca66878ed33c3d8358772ed1c19606ca173b0c10b661387a92d2cb40042a0/diff:/var/lib/docker/overlay2/305a50704f4bd22e2d730371e3953d3b8896c96052ce2f49bc9940f4196ac282/diff:/var/lib/docker/overlay2/618da947af9d6825810ae3af3309d3429810170e8d1e9f70b1a9b1e91a1ed7a6/diff",                                                                                            
+                "MergedDir": "/var/lib/docker/overlay2/9b38f0349cd320c32a71259478f677a12a64ebf7d94372c78894dea3178b2693/merged",                                         
+                "UpperDir": "/var/lib/docker/overlay2/9b38f0349cd320c32a71259478f677a12a64ebf7d94372c78894dea3178b2693/diff",                                            
+                "WorkDir": "/var/lib/docker/overlay2/9b38f0349cd320c32a71259478f677a12a64ebf7d94372c78894dea3178b2693/work"                                              
+            },                                                                                                                                                           
+            "Name": "overlay2"                                                                                                                                           
+        },                                                                                                                                                               
+        "Mounts": [                                                                                                                                                      
+            {                                                                                                                                                            
+                "Type": "bind",                                                                                                                                          
+                "Source": "/home/stison/Desktop/dockerRelated/nginxWorkingDir",                                                                                          
+                "Destination": "/usr/share/nginx/html",                                                                                                                  
+                "Mode": "",                                                                                                                                              
+                "RW": true,                                                                                                                                              
+                "Propagation": "rprivate"                                                                                                                                
+            }                                                                                                                                                            
+        ],                                                                                                                                                               
+        "Config": {                                                                                                                                                      
+            "Hostname": "eea4aafc2a16",                                                                                                                                  
+            "Domainname": "",                                                                                                                                            
+            "User": "",                                                                                                                                                  
+            "AttachStdin": false,                                                                                                                                        
+            "AttachStdout": false,                                                                                                                                       
+            "AttachStderr": false,                                                                                                                                       
+            "ExposedPorts": {                                                                                                                                            
+                "80/tcp": {}                                                                                                                                             
+            },                                                                                                                                                           
+            "Tty": false,                                                                                                                                                
+            "OpenStdin": false,                                                                                                                                          
+            "StdinOnce": false,                                                                                                                                          
+            "Env": [                                                                                                                                                     
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",                                                                                     
+                "NGINX_VERSION=1.17.8",                                                                                                                                  
+                "NJS_VERSION=0.3.8",                                                                                                                                     
+                "PKG_RELEASE=1~buster"                                                                                                                                   
+            ],                                                                                                                                                           
+            "Cmd": [                                                                                                                                                     
+                "nginx",                                                                                                                                                 
+                "-g",                                                                                                                                                    
+                "daemon off;"                                                                                                                                            
+            ],                                                                                                                                                           
+            "ArgsEscaped": true,                                                                                                                                         
+            "Image": "nginx:latest",                                                                                                                                     
+            "Volumes": null,                                                                                                                                             
+            "WorkingDir": "",                                                                                                                                            
+            "Entrypoint": null,                                                                                                                                          
+            "OnBuild": null,                                                                                                                                             
+            "Labels": {                                                                                                                                                  
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"                                                                                        
+            },                                                                                                                                                           
+            "StopSignal": "SIGTERM"                                                                                                                                      
+        },                                                                                                                                                               
+        "NetworkSettings": {                                                                                                                                             
+            "Bridge": "",                                                                                                                                                
+            "SandboxID": "a18b49ccfe134f3fc438a4855bd99a85c4cdc80534b2a3993a455f9365e1bcf7",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/a18b49ccfe13",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "2cfc33f1b32ba338beda3754ada7aac6686e9002bd15e82d57d1972464d0df2a",
+            "Gateway": "172.17.0.1",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "172.17.0.2",
+            "IPPrefixLen": 16,
+            "IPv6Gateway": "",
+            "MacAddress": "02:42:ac:11:00:02",
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "NetworkID": "28f5610bde26c04d8ac32663d3cd414ae1e217576a08b7d9396e6f0d12e0ae1b",
+                    "EndpointID": "2cfc33f1b32ba338beda3754ada7aac6686e9002bd15e82d57d1972464d0df2a",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:ac:11:00:02",
+                    "DriverOpts": null
+                }
+            }
+        }
+    }
+]
